@@ -1,0 +1,21 @@
+id,title,difficulty,baseline_status,reflection_status,baseline_passed,reflection_passed,attempts
+01_palindrome,Palindrome,easy,passed,passed,True,True,1
+02_second_largest,Second-largest distinct value,easy,passed,passed,True,True,1
+03_unique_in_order,Remove duplicates preserving order,easy,failed,failed,False,False,3
+04_rotate_right,Rotate list with signed k,medium,passed,passed,True,True,1
+05_balanced_brackets,Balanced brackets ignoring other characters,medium,passed,passed,True,True,1
+06_count_vowels,Count ASCII vowels,easy,passed,passed,True,True,1
+07_flatten_once,Flatten one list level,easy,passed,passed,True,True,1
+08_group_anagrams,Stable grouping of anagrams,medium,passed,passed,True,True,1
+09_merge_intervals,Merge closed intervals,medium,passed,passed,True,True,1
+10_valid_ipv4,Validate strict IPv4 addresses,medium,failed,failed,False,False,3
+11_parse_csv_line,Parse one CSV record,hard,failed,failed,False,False,3
+12_run_length_encode,Run-length encode characters,easy,passed,passed,True,True,1
+13_longest_unique_substring,Longest substring without repeating characters,medium,passed,passed,True,True,1
+14_top_k_frequent,Top-k frequencies with tie breaking,medium,passed,passed,True,True,1
+15_normalize_whitespace,Normalize whitespace,easy,passed,passed,True,True,1
+16_first_unique_char,First non-repeating character,easy,passed,passed,True,True,1
+17_evaluate_rpn,Evaluate reverse Polish notation,hard,passed,passed,True,True,1
+18_max_consecutive_ones,Longest streak of ones,easy,passed,passed,True,True,1
+19_transpose_matrix,Transpose a rectangular matrix,medium,passed,passed,True,True,1
+20_missing_ranges,Find missing integer ranges,hard,passed,passed,True,True,1

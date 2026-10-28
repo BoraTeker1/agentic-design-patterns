@@ -1,0 +1,162 @@
+[
+  {
+    "id": "01_palindrome",
+    "title": "Palindrome",
+    "difficulty": "easy",
+    "function_name": "is_palindrome",
+    "test_file": "tests/test_01_palindrome.py",
+    "spec": "Write a Python function with this exact signature:\ndef is_palindrome(s: str) -> bool:\n\nRequirements:\nReturn True if s reads identically forwards and backwards, otherwise False. Comparisons are case-sensitive and include spaces and punctuation as ordinary characters. An empty string is a palindrome.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "02_second_largest",
+    "title": "Second-largest distinct value",
+    "difficulty": "easy",
+    "function_name": "second_largest",
+    "test_file": "tests/test_02_second_largest.py",
+    "spec": "Write a Python function with this exact signature:\ndef second_largest(nums: list[int]) -> int | None:\n\nRequirements:\nReturn the second-largest DISTINCT integer in nums. If fewer than two distinct integers are present, return None. Do not modify nums.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "03_unique_in_order",
+    "title": "Remove duplicates preserving order",
+    "difficulty": "easy",
+    "function_name": "unique_in_order",
+    "test_file": "tests/test_03_unique_in_order.py",
+    "spec": "Write a Python function with this exact signature:\ndef unique_in_order(items: list[int]) -> list[int]:\n\nRequirements:\nReturn a new list with duplicate values removed, preserving the order of their FIRST appearance. Do not mutate the input list.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "04_rotate_right",
+    "title": "Rotate list with signed k",
+    "difficulty": "medium",
+    "function_name": "rotate_right",
+    "test_file": "tests/test_04_rotate_right.py",
+    "spec": "Write a Python function with this exact signature:\ndef rotate_right(items: list[int], k: int) -> list[int]:\n\nRequirements:\nReturn a NEW list made by rotating items to the right by k positions. Negative k rotates to the left. Treat rotations cyclically (equivalently, k modulo list length). An empty input returns an empty list. Do not mutate items.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "05_balanced_brackets",
+    "title": "Balanced brackets ignoring other characters",
+    "difficulty": "medium",
+    "function_name": "balanced_brackets",
+    "test_file": "tests/test_05_balanced_brackets.py",
+    "spec": "Write a Python function with this exact signature:\ndef balanced_brackets(s: str) -> bool:\n\nRequirements:\nReturn True if all (, ), [, ], {, } in s are properly matched and nested. Ignore every other character, including spaces and letters. An empty string or string with no brackets is valid.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "06_count_vowels",
+    "title": "Count ASCII vowels",
+    "difficulty": "easy",
+    "function_name": "count_vowels",
+    "test_file": "tests/test_06_count_vowels.py",
+    "spec": "Write a Python function with this exact signature:\ndef count_vowels(s: str) -> int:\n\nRequirements:\nCount occurrences of the ASCII vowels a, e, i, o, u in s, ignoring letter case. Accented characters such as é do not count. Return 0 for an empty string.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "07_flatten_once",
+    "title": "Flatten one list level",
+    "difficulty": "easy",
+    "function_name": "flatten_once",
+    "test_file": "tests/test_07_flatten_once.py",
+    "spec": "Write a Python function with this exact signature:\ndef flatten_once(items: list[list[int]]) -> list[int]:\n\nRequirements:\nConcatenate the inner lists in left-to-right order into a new flat list. The input is a list of lists of integers (exactly one nested level). Empty inner lists contribute nothing. Do not mutate items or its inner lists.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "08_group_anagrams",
+    "title": "Stable grouping of anagrams",
+    "difficulty": "medium",
+    "function_name": "group_anagrams",
+    "test_file": "tests/test_08_group_anagrams.py",
+    "spec": "Write a Python function with this exact signature:\ndef group_anagrams(words: list[str]) -> list[list[str]]:\n\nRequirements:\nGroup words that contain the same letters in different orders. Inputs contain lowercase a-z letters only, possibly empty strings. Within each group, preserve input order. Order the groups by the first occurrence of a word from that group in the input. Return an empty list for empty input.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "09_merge_intervals",
+    "title": "Merge closed intervals",
+    "difficulty": "medium",
+    "function_name": "merge_intervals",
+    "test_file": "tests/test_09_merge_intervals.py",
+    "spec": "Write a Python function with this exact signature:\ndef merge_intervals(intervals: list[tuple[int, int]]) -> list[tuple[int, int]]:\n\nRequirements:\nEach tuple (start, end) is a CLOSED interval with start <= end. Merge intervals that overlap OR touch at an endpoint. Return merged tuples sorted by increasing start. Do not modify the input list.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "10_valid_ipv4",
+    "title": "Validate strict IPv4 addresses",
+    "difficulty": "medium",
+    "function_name": "valid_ipv4",
+    "test_file": "tests/test_10_valid_ipv4.py",
+    "spec": "Write a Python function with this exact signature:\ndef valid_ipv4(address: str) -> bool:\n\nRequirements:\nReturn True only if address consists of exactly four dot-separated ASCII decimal integer components (digits 0-9 only), each between 0 and 255 inclusive. No component may have a leading zero unless it is exactly \"0\". Reject spaces, signs, missing components, and non-ASCII digits.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "11_parse_csv_line",
+    "title": "Parse one CSV record",
+    "difficulty": "hard",
+    "function_name": "parse_csv_line",
+    "test_file": "tests/test_11_parse_csv_line.py",
+    "spec": "Write a Python function with this exact signature:\ndef parse_csv_line(line: str) -> list[str]:\n\nRequirements:\nParse a SINGLE valid comma-separated record without a trailing newline. Commas separate fields, except inside double-quoted fields. A quoted field may contain commas; a double quote inside a quoted field is escaped by doubling it (\"\"). Remove surrounding quotes and unescape doubled quotes. Unquoted fields remain exactly as written (do not trim spaces). Empty fields are preserved. An empty input represents one empty field. Inputs are guaranteed valid under these rules.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "12_run_length_encode",
+    "title": "Run-length encode characters",
+    "difficulty": "easy",
+    "function_name": "run_length_encode",
+    "test_file": "tests/test_12_run_length_encode.py",
+    "spec": "Write a Python function with this exact signature:\ndef run_length_encode(s: str) -> str:\n\nRequirements:\nEncode each maximal consecutive run of identical characters as the character followed by its decimal count, even when the count is 1. Preserve character case; any character (including digits or spaces) may appear in the input. Return an empty string for empty input.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "13_longest_unique_substring",
+    "title": "Longest substring without repeating characters",
+    "difficulty": "medium",
+    "function_name": "longest_unique_substring",
+    "test_file": "tests/test_13_longest_unique_substring.py",
+    "spec": "Write a Python function with this exact signature:\ndef longest_unique_substring(s: str) -> int:\n\nRequirements:\nReturn the length of the longest CONTIGUOUS substring of s in which no character appears twice. Characters are case-sensitive. Return 0 for empty input.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "14_top_k_frequent",
+    "title": "Top-k frequencies with tie breaking",
+    "difficulty": "medium",
+    "function_name": "top_k_frequent",
+    "test_file": "tests/test_14_top_k_frequent.py",
+    "spec": "Write a Python function with this exact signature:\ndef top_k_frequent(nums: list[int], k: int) -> list[int]:\n\nRequirements:\nReturn exactly k distinct values, ordered by descending frequency in nums. When two numbers have the same frequency, put the NUMERICALLY SMALLER number first. 0 <= k <= number of distinct elements. Do not modify nums.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "15_normalize_whitespace",
+    "title": "Normalize whitespace",
+    "difficulty": "easy",
+    "function_name": "normalize_whitespace",
+    "test_file": "tests/test_15_normalize_whitespace.py",
+    "spec": "Write a Python function with this exact signature:\ndef normalize_whitespace(s: str) -> str:\n\nRequirements:\nRemove leading/trailing whitespace and replace every internal run of one or more Python whitespace characters (spaces, tabs, newlines, etc.) with one ordinary ASCII space. If the input is all whitespace or empty, return an empty string.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "16_first_unique_char",
+    "title": "First non-repeating character",
+    "difficulty": "easy",
+    "function_name": "first_unique_char",
+    "test_file": "tests/test_16_first_unique_char.py",
+    "spec": "Write a Python function with this exact signature:\ndef first_unique_char(s: str) -> str | None:\n\nRequirements:\nReturn the first character in s that occurs exactly once in the ENTIRE string. Comparisons are case-sensitive. Return None if no character occurs exactly once, including empty input.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "17_evaluate_rpn",
+    "title": "Evaluate reverse Polish notation",
+    "difficulty": "hard",
+    "function_name": "evaluate_rpn",
+    "test_file": "tests/test_17_evaluate_rpn.py",
+    "spec": "Write a Python function with this exact signature:\ndef evaluate_rpn(tokens: list[str]) -> int:\n\nRequirements:\nEvaluate a valid reverse Polish notation expression whose tokens are integer literals (including negative integers) or binary operators +, -, *, /. Integer division must TRUNCATE TOWARD ZERO, not floor toward negative infinity. Tokens always represent a valid expression with no division by zero. Do not mutate tokens.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "18_max_consecutive_ones",
+    "title": "Longest streak of ones",
+    "difficulty": "easy",
+    "function_name": "max_consecutive_ones",
+    "test_file": "tests/test_18_max_consecutive_ones.py",
+    "spec": "Write a Python function with this exact signature:\ndef max_consecutive_ones(nums: list[int]) -> int:\n\nRequirements:\nThe input contains only 0 and 1. Return the length of the longest consecutive run of 1 values. Return 0 if there are no 1 values or the list is empty. Do not mutate nums.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "19_transpose_matrix",
+    "title": "Transpose a rectangular matrix",
+    "difficulty": "medium",
+    "function_name": "transpose_matrix",
+    "test_file": "tests/test_19_transpose_matrix.py",
+    "spec": "Write a Python function with this exact signature:\ndef transpose_matrix(matrix: list[list[int]]) -> list[list[int]]:\n\nRequirements:\nTranspose a rectangular matrix: rows become columns. For empty input return []. For a matrix with zero columns (such as [[], []]), return []. Do not mutate the original matrix or its rows.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  },
+  {
+    "id": "20_missing_ranges",
+    "title": "Find missing integer ranges",
+    "difficulty": "hard",
+    "function_name": "missing_ranges",
+    "test_file": "tests/test_20_missing_ranges.py",
+    "spec": "Write a Python function with this exact signature:\ndef missing_ranges(nums: list[int], lower: int, upper: int) -> list[tuple[int, int]]:\n\nRequirements:\nGiven lower <= upper and a sorted ascending list nums of DISTINCT integers, all within the inclusive interval [lower, upper], return all maximal missing integer ranges as inclusive (start, end) tuples, in ascending order. A single missing number is represented as (x, x). An empty nums list means the entire interval is missing. Do not mutate nums.\n\nReturn only the function's Python source code. Do not print anything, read files, or rely on third-party packages."
+  }
+]

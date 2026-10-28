@@ -1,0 +1,74 @@
+{
+  "goal": "Compare MongoDB and PostgreSQL for an early-stage startup.",
+  "steps": [
+    {
+      "id": 1,
+      "description": "Research the key features of MongoDB, focusing on its advantages and disadvantages for startups.",
+      "tool": "web_search",
+      "depends_on": [],
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "description": "Research the key features of PostgreSQL, highlighting its pros and cons specifically for early-stage startups.",
+      "tool": "web_search",
+      "depends_on": [],
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "description": "Examine case studies or articles about startups that have used MongoDB, detailing their experiences and any challenges faced.",
+      "tool": "web_search",
+      "depends_on": [
+        1
+      ],
+      "status": "done"
+    },
+    {
+      "id": 4,
+      "description": "Examine case studies or articles about startups that have used PostgreSQL, detailing their experiences and any challenges faced.",
+      "tool": "web_search",
+      "depends_on": [
+        2
+      ],
+      "status": "done"
+    },
+    {
+      "id": 5,
+      "description": "Investigate the scalability, performance, and support aspects of both MongoDB and PostgreSQL in the context of startup needs.",
+      "tool": "web_search",
+      "depends_on": [
+        1,
+        2
+      ],
+      "status": "done"
+    },
+    {
+      "id": 6,
+      "description": "Synthesize the findings from the previous steps to provide a comprehensive comparison of MongoDB and PostgreSQL for an early-stage startup.",
+      "tool": "web_search",
+      "depends_on": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "done"
+    },
+    {
+      "id": 7,
+      "description": "Answer the original goal using the research findings: Compare MongoDB and PostgreSQL for an early-stage startup.. Cite source URLs.",
+      "tool": null,
+      "depends_on": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "done"
+    }
+  ]
+}
