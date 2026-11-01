@@ -1,0 +1,122 @@
+[
+  {
+    "input": "My Python function raises an IndexError when the list is empty. Help me fix it.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Refactor this JavaScript function to avoid repeating the same logic in three places.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Write pytest unit tests for a function that merges overlapping intervals.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Why does my SQL query return duplicate rows after joining these tables?",
+    "expected_category": "coding"
+  },
+  {
+    "input": "My FastAPI endpoint returns a 422 error when I send JSON. Help me debug it.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Help me implement binary search in Python without using built-in search functions.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Review my Dockerfile and identify why the container fails to start.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "My React component keeps rerendering in an infinite loop. What should I change?",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Explain the bug in this C code that dereferences a null pointer and suggest a fix.",
+    "expected_category": "coding"
+  },
+  {
+    "input": "Compare PostgreSQL and MongoDB for an early-stage SaaS startup, citing credible sources.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Research the latest public benchmarks comparing small language models for text classification.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Find three credible studies on whether remote work affects developer productivity.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Summarize the major differences between REST and GraphQL based on their documentation.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Investigate which cloud providers offer managed vector databases and compare their features.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Find reliable sources on electric vehicle adoption trends in Europe over the last five years.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Compare the pricing and rate limits of popular speech-to-text APIs using published documentation.",
+    "expected_category": "research"
+  },
+  {
+    "input": "Research the advantages and disadvantages of using embeddings instead of an LLM for intent classification.",
+    "expected_category": "research"
+  },
+  {
+    "input": "I was charged twice for my subscription. Can you help me resolve the billing issue?",
+    "expected_category": "support"
+  },
+  {
+    "input": "Where can I check the status of my refund request?",
+    "expected_category": "support"
+  },
+  {
+    "input": "I can't sign in to my account after resetting my password. Please help.",
+    "expected_category": "support"
+  },
+  {
+    "input": "How do I cancel my plan before the next renewal date?",
+    "expected_category": "support"
+  },
+  {
+    "input": "I lost access to my two-factor authentication device and need to recover my account.",
+    "expected_category": "support"
+  },
+  {
+    "input": "Please open a support ticket about the missing item in my order.",
+    "expected_category": "support"
+  },
+  {
+    "input": "The invoice in my customer dashboard has the wrong company name. Can it be corrected?",
+    "expected_category": "support"
+  },
+  {
+    "input": "I upgraded my subscription, but the paid features are still locked on my account.",
+    "expected_category": "support"
+  },
+  {
+    "input": "My application isn't working. Can you help?",
+    "expected_category": "unclear"
+  },
+  {
+    "input": "Can you check the status of my request?",
+    "expected_category": "unclear"
+  },
+  {
+    "input": "What should I do about this error?",
+    "expected_category": "unclear"
+  },
+  {
+    "input": "Could you investigate this issue and tell me what happened?",
+    "expected_category": "unclear"
+  },
+  {
+    "input": "I need help setting this up, but I'm not sure where to start.",
+    "expected_category": "unclear"
+  }
+]
